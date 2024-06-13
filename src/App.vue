@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import { ref } from "vue";
+var text = { a: 1, b: "2" };
 </script>
 
 <template>
