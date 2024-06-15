@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import { ref } from "vue";
-var text = { a: 1, b: "2" };
+  import { ref } from 'vue'
+  import HelloWorld from './components/HelloWorld.vue'
+
+  const text = { a: 1, b: '2' }
 </script>
 
 <template>
@@ -17,16 +18,16 @@ var text = { a: 1, b: "2" };
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.vue:hover {
+    filter: drop-shadow(0 0 2em #42b883aa);
+  }
 </style>
