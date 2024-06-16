@@ -1,0 +1,3 @@
+{
+  "src/**/*.{vue,js}": ["pnpm run prettier", "pnpm run eslint"]
+}

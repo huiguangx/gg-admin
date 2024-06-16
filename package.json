@@ -7,13 +7,24 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .ts,.vue src/ --fix"
+    "prettier": "prettier --check \"src/**/*.{js,ts,tsx,vue}\"",
+    "prettier:fix": "prettier --log-level error --write \"src/**/*.{js,ts,tsx,vue}\"",
+    "eslint": "eslint --ext .js,.ts,.tsx,.vue ./src vite.config.ts",
+    "eslint:fix": "eslint --ext .js,.ts,.tsx,.vue --fix ./src vite.config.ts",
+    "lint-staged": "lint-staged",
+    "cm": "git-cz",
+    "commitlint": "commitlint -e -V",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@vitejs/plugin-vue": "^5.0.4",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.9.3",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -21,6 +32,8 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-vue": "^9.26.0",
     "globals": "^15.4.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
     "stylelint": "^16.6.1",
     "stylelint-config-recess-order": "^5.0.1",

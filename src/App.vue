@@ -1,8 +1,8 @@
 <script setup lang="ts">
-  import { ref } from 'vue'
+  // import { ref } from 'vue'
   import HelloWorld from './components/HelloWorld.vue'
 
-  const text = { a: 1, b: '2' }
+  // const text = { a: 1, b: '2' }
 </script>
 
 <template>
