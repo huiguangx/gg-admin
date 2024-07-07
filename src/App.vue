@@ -1,6 +1,7 @@
 <script setup lang="ts">
   // import { ref } from 'vue'
-  import HelloWorld from './components/HelloWorld.vue'
+  import { Message } from '@element-plus/icons-vue'
+  import HelloWorld from '@/components/HelloWorld.vue'
 
   // const text = { a: 1, b: '2' }
 </script>
@@ -14,6 +15,7 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <el-button :icon="Message">111222</el-button>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
