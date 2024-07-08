@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { ref } from 'vue'
+  import IconTest from '@/assets/vue.svg'
 
   defineProps<{ msg: string }>()
 
@@ -11,6 +12,7 @@
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
+    <IconTest />
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
