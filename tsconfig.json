@@ -24,8 +24,8 @@
     "paths": {
       //路径映射，相对于baseUrl
       "@/*": ["src/*"]
-    },
-    "allowSyntheticDefaultImports": true // 允许默认导入
+    }
+    // "allowSyntheticDefaultImports": true // 允许默认导入
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
