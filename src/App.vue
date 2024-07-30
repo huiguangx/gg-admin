@@ -3,7 +3,7 @@
   import { Message } from '@element-plus/icons-vue'
   import HelloWorld from '@/components/HelloWorld.vue'
 
-  // const text = { a: 1, b: '2' }
+  // const text = { a: 1, b: '2' }1
 </script>
 
 <template>
